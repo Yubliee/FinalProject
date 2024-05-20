@@ -1,0 +1,87 @@
+h1 {
+    text-align: center;
+    color:black;
+}
+h2 {
+    text-align: center;
+    color:black;
+}
+
+body{
+    min-height: 100%;
+    background: linear-gradient(to bottom, white, pink, hotpink);
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.title {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    border: groove 2px;
+    border-radius: 10px;
+    border-color: hotpink;
+    margin: 10px;
+    background-image: url(https://cdn.discordapp.com/attachments/912330621228032071/1240712783230931056/image.png?ex=664adb12&is=66498992&hm=66de5c0ba57a129760a68610936fd9caab1361682622e30089ace7d3d77dfd82&);
+    background-size: cover;
+    background-position: center -250px;
+    height: 400px;
+}
+.text {
+    margin: 10px;
+    border: groove 2px;
+    border-radius: 10px;
+    border-color:hotpink;
+    padding: 5px;
+    color: black
+}
+
+.image {
+    border: groove 2px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: hotpink;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    margin: 5px;
+    background-image: url(https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.footer-text {
+    text-align: center;
+    color: palevioletred;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+nav ul li a:hover {
+    color:palevioletred;
+}
